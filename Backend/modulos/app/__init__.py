@@ -17,4 +17,4 @@ app.config['MONGO_URI'] = 'mongodb+srv://Flask:Flask123@clustercrud.t9bxp.mongod
 app.json_encoder = json.JSONEncoder
 mongo = PyMongo(app)
 
-from modulos.app.controladores import *
+from modulos.app import *
